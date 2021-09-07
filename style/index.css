@@ -1,1 +1,177 @@
-/* Add CSS styling here */
+/* CSS reset start */
+
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin:0;
+        max-width: 100%;
+    }
+
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        font-size:1.6rem;
+        line-height:1.5;
+        color: 4f4f4f4f;
+        font-family: 'Roboto Mono', monospace;
+    }
+    /* CSS reset end */
+
+    /* Header */
+
+    header{
+        width: 100%;
+        display: flex;
+        background-color: #7c8aa1;
+    }
+    
+    h1{
+        display: flex;
+        width: 50%;
+        font-size:9rem;
+        font-family: 'Allison', cursive;
+        
+    }
+    
+    .button{
+        width: 10%;
+        text-align: center;
+        margin: 0%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        height: 25%;
+        border: whitesmoke solid 1px;
+        background-color: #c7cbd1;
+        font-family: 'Allison', cursive;
+        font-family: 'Crimson Text', serif;
+
+    }
+    .button:hover{
+        background-color: #cdddf7;
+
+    }
+    
+    .buttonContainer{
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+    }
+    .mainBody{
+        height:80vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    background-image: url(../Assets/Tequilla.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+    
+    
+    h2{
+        font-size:8rem;
+        font-family: 'Allison', cursive;
+        color: whitesmoke;
+    }
+    .centerButton{
+        border: whitesmoke solid 1px;
+        background-color: #c7cbd1;
+        font-family: 'Allison', cursive;
+        font-family: 'Crimson Text', serif;
+        
+
+
+    }
+
+
+
+
+
+
+
+    .contentContainerOne{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentContainerTwo{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    width: 30%;
+    font-family: 'Allison', cursive;
+    font-size:4rem; 
+
+    
+}
+img{
+    width: 100%;
+}
+p{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    margin-top: 1%;
+    background-color: #7c8aa1;
+}
+
+.closingButton{
+    text-align: center;
+    width: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: whitesmoke solid 1px;
+        background-color: #c7cbd1;
+        font-family: 'Allison', cursive;
+        font-family: 'Crimson Text', serif;
+}
